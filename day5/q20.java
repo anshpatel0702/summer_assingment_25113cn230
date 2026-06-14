@@ -22,6 +22,7 @@ public class q20 {
             }
         }
         System.out.println("largest prime factor of "+num+" is "+max);
+        sc.close();
     }
     
 }

@@ -9,6 +9,7 @@ public class q19 {
                 System.out.print(i+" ");
             }
         }
+        sc.close();
     }
     
 }

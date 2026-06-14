@@ -16,7 +16,6 @@ public class q17 {
         else{
             System.out.println(num+" is not a perfect number");
         }
+        sc.close();
     }
-
-    
 }

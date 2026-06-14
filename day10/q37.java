@@ -1,4 +1,4 @@
-package day10;
+
 import java.util.*;
 public class q37 {
     public static void main(String[] args){

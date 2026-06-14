@@ -1,5 +1,4 @@
-
-
+package day9;
 import java.util.Scanner;
 
 public class q36 {

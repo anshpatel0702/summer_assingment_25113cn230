@@ -1,9 +1,10 @@
-package day13;
+//package day14;
 
 import java.util.Scanner;
 
-public class q51 {
-    public static void main(String[] args){
+public class q56 {
+    
+      public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the size of an array");
         int n=sc.nextInt();
@@ -12,18 +13,13 @@ public class q51 {
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
-        int min=arr[0];
-        int max=arr[0];
         for(int i=0;i<n;i++){
-            if(arr[i]>max){
-                max=arr[i];
-            }
-            if(arr[i]<min){
-                min=arr[i];
-            }
-
+           for(int j=i+1;j<n;j++){
+             if(arr[i]==arr[j]){
+                System.out.print(arr[j]+" ");
+             }
+           }  
         }
-        System.out.println("maximum value "+max);
-        System.out.println("minimum value "+ min);
         sc.close();
-}}
+}
+}

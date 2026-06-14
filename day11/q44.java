@@ -1,5 +1,5 @@
 
-
+package day11;
 import java.util.Scanner;
 
 public class q44 {

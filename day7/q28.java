@@ -6,7 +6,7 @@ public class q28 {
             return rev;
         }
         return reverse(n / 10,rev * 10 + n % 10);
-    }
+    } 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
